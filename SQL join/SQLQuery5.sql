@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [EpisodeID]
+      ,[SeriesNumber]
+      ,[EpisodeNumber]
+      ,[EpisodeType]
+      ,[Title]
+      ,[EpisodeDate]
+      ,[AuthorID]
+      ,[DoctorID]
+      ,[Notes]
+  FROM [AdventureWorks2019].[dbo].[tblEpisode]
